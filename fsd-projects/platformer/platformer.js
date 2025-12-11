@@ -26,7 +26,7 @@ $(function () {
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
    toggleGrid();
-createPlatform(200,650,100,50, "red");
+createPlatform(100,600,100,50, "red");
 createPlatform(400,600,100,50, "red", 400,600,1);
 createPlatform(605,100,100,350, "white");
 createPlatform(605,550,100,100,"white");
