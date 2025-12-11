@@ -37,9 +37,9 @@ circles.push(circle);
     drawCircle(i);
 }*/
         // TODO 7 : Use a loop to create multiple circles
-for (var i = 0; i < 100; i++) {
-drawCircle(i);
-}
+        for (var i = 0; i < 100; i++) {
+            drawCircle(i);
+        }
 
 
 
@@ -56,7 +56,7 @@ drawCircle(i);
         */
         function update() {
             // TODO 4 : Update the position of each circle using physikz.updatePosition()
-    /*for (var i = 0; i < 5; i++){
+   /* for (var i = 0; i < 5; i++){
         physikz.updatePosition(circles[i])
     }
             
@@ -66,9 +66,9 @@ drawCircle(i);
     }*/
    
             // TODO 8 / TODO 9 : Iterate over the array
-    for (var i = 0; i < circle.length; i++) {    
+    for (var i = 0; i< circles.length; i++) {    
     physikz.updatePosition(circles[i])
-    game.checkCirclePosition(circles[i])        
+     game.checkCirclePosition(circles[i])        
     }
 }
 
@@ -87,7 +87,7 @@ drawCircle(i);
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
             
-             if ( circle.x > canvas.width ) {
+           /*  if ( circle.x > canvas.width ) {
                 circle.x = 0;
             }
             if (circle.x < 0 ) {
@@ -98,7 +98,7 @@ drawCircle(i);
             }
             if (circle.y > canvas.height ) {
                 circle.y = 0;
-            }
+            }*/
         
 
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
